@@ -1,6 +1,4 @@
 # ACM-ICPC Template - wym6912
 
-目录
-
-
+ACM-ICPC 模板目录。
 
