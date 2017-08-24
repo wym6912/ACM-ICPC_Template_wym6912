@@ -15,7 +15,7 @@ int A[MAX_N];
 char T[MAX_Q];
 int L[MAX_Q], R[MAX_Q], X[MAX_Q];
 
-ll data[DAT_SIZE], datb[DAT_SIZE]; //data is Main Tree, datb is tag tree
+ll data[DAT_SIZE], datb[DAT_SIZE]; //data is Lazy-tag Tree, datb is Main tree
 
 inline int min(int a,int b){return a < b ? a : b;}
 inline int max(int a,int b){return a > b ? a : b;}
@@ -29,7 +29,6 @@ void add(int a,int b,int x,int k,int l,int r)
 		add(a, b, x, k * 2 + 1, l, (l + r) >> 1);
 		add(a, b, x, k * 2 + 2, (l + r) >> 1, r);
 	}
-	//else assert();
 }
 
 ll sum(int a,int b,int k,int l,int r)
@@ -51,7 +50,7 @@ ll sum(int a,int b,int k,int l,int r)
 
 void solve()
 {
-	for(int i = 0;i < N;i ++)
+	for(int i = 0;i < N;i ++)        //这棵线段树是从 0 ~ N 运行的 
 		add(i,i + 1, A[i], 0, 0, N);
 	for(int i = 0;i < Q;i ++)
 		if(T[i] == 'C')
