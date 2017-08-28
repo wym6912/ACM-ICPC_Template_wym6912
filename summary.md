@@ -14,8 +14,10 @@
 
   * [线段树](31.md)
   * [求树的 DFS 序](/TREE_DFS.md)
+  * [树状数组](/TREE_DATA.md)
 
 * [第 4 章 计算几何](chapter-4.md)
 
 * [第 5 章 字符串](chapter-5.md)
+
 
