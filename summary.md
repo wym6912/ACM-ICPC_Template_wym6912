@@ -13,8 +13,8 @@
 * [第 3 章 数据结构](chapter-3.md)
 
   * [线段树](31.md)
-  * [求树的 DFS 序](/TREE_DFS.md)
   * [树状数组](/TREE_DATA.md)
+  * [树的 DFS 序](/TREE_DFS.md)
 
 * [第 4 章 计算几何](chapter-4.md)
 
