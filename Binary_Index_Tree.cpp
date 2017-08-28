@@ -2,8 +2,6 @@
 
 #define SIZE_MM 50000
 
-using namespace std;
-
 int bit[SIZE_MM + 1],n;
 
 int sum(int i)
