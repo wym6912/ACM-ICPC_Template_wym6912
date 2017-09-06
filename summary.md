@@ -16,6 +16,7 @@
 
   * [最小生成树](/Minimum_Spanning_Tree.md)
   * [线段树](31.md)
+  * [划分树](/DIVIDE_TREE.MD)
   * [树状数组](/TREE_DATA.md)
   * [树的 DFS 序](/TREE_DFS.md)
 
