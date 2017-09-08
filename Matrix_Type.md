@@ -1,6 +1,6 @@
 ## 矩阵类
 
-```
+```cpp
 struct Matrix
 {
     int n;
@@ -60,4 +60,6 @@ struct Matrix
     }
 };
 ```
+
+
 
