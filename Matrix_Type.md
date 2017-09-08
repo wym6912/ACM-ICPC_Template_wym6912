@@ -1,12 +1,12 @@
 ## 矩阵类
 
-```
+```cpp
 struct Matrix
 {
     int n;
     int a[MAXN][MAXN];
     void clear(){memset(a,0,sizeof(a));n = 0;}
-    Matrix operator  (const Matrix &b) const
+    Matrix operator * (const Matrix &b) const
     {
         Matrix tmp;
         tmp.clear();
@@ -14,7 +14,7 @@ struct Matrix
         for(int i = 0;i < n;i ++)
             for(int k = 0;k < n;k ++)
                 for(int j = 0;j < n;j ++)
-                    tmp.a[i][j] = (tmp.a[i][j] + a[i][k]  b.a[k][j]) % mod;
+                    tmp.a[i][j] = (tmp.a[i][j] + a[i][k] * b.a[k][j]) % mod;
         return tmp;
     }
     Matrix one()
@@ -34,9 +34,9 @@ struct Matrix
                 tmp.a[i][j] = a[i][j];
         while(b)
         {
-            if(b & 1)tmp2 = tmp  tmp2;
+            if(b & 1)tmp2 = tmp * tmp2;
             b >>= 1;
-            tmp = tmp  tmp;
+            tmp = tmp * tmp;
         }
         return tmp2;
     }
@@ -60,4 +60,6 @@ struct Matrix
     }
 };
 ```
+
+
 
