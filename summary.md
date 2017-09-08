@@ -4,6 +4,7 @@
 * [第 1 章 基础算法](chapter-1.md)
 
   * [快速幂](快速幂.md)
+  * [大整数类](BigInteger.md)
 
 * [第 2 章 数学](chapter-2.md)
 
