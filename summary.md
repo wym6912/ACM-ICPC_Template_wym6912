@@ -4,6 +4,7 @@
 * [第 1 章 基础算法](chapter-1.md)
   * [快速幂](快速幂.md)
   * [大整数类](BigInteger.md)
+  * [快速 Founier 变换](kuai-su-founier-bian-huan.md)
 * [第 2 章 数学](chapter-2.md)
   * [扩展欧几里得算法](扩展欧几里得算法.md)
   * [利用 Lucas 定理求组合数](利用-lucas-定理求组合数.md)
