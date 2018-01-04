@@ -10,7 +10,7 @@
   * [利用 Lucas 定理求组合数](利用-lucas-定理求组合数.md)
   * [Miller\_Rabin 素数测试法](Miller_Rabin.md)
   * [矩阵类](/Matrix_Type.md)
-  * 
+  * [Cantor 展开](/Cantor_Expand.md)
 * [第 3 章 数据结构](chapter-3.md)
   * [最小生成树](/Minimum_Spanning_Tree.md)
   * [线段树](31.md)
@@ -21,4 +21,6 @@
   * [利用树状数组求逆序对的数目](逆序数.md)
 * [第 4 章 计算几何](chapter-4.md)
 * [第 5 章 字符串](chapter-5.md)
+
+
 
