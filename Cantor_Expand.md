@@ -1,22 +1,27 @@
+## Cantor 展开
+
 ```cpp
-int Cantor(int n,status a)
+int maxc = 10;
+ll fac[] = {1,1,2,6,24,120,720,5040,40320};  //注意 fac[n] = n! 
+
+ll Cantor(ll n, ll a[]) // 注意 a[] 从 0 开始存
 {
-    int i, j, t, CantorValue;
+    ll i, j, t, CantorValue;
     CantorValue = 0;
     for(i = 0; i < n ; i ++)
     {
         t = 0;
         for(j = i + 1; j < n; ++ j)
-            if(a.num[i] > a.num[j])
+            if(a[i] > a[j])
                 ++ t;
         CantorValue += t * fac[n - i - 1];
     }
     return CantorValue;
 }
- 
-void CantorReverse(int n, int CantorValue, status e)
+
+void CantorReverse(ll n, ll CantorValue, ll e[]) //注意返回值是存储在 e[] 里
 {
-    int i, j, t, vst[8] = {0};
+    int i, j, t, vst[maxc] = {0};
     for (i = 0; i < n; i ++)
     {
         t = CantorValue / fac[n - i - 1];
@@ -26,9 +31,12 @@ void CantorReverse(int n, int CantorValue, status e)
                 if (t == 0) break;
                 -- t;
             }
-        e.num[i] = j;
+        e[i] = j;
         vst[j] = 1;
         CantorValue %= fac[n - i - 1];
     }
 }
 ```
+
+
+
