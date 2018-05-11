@@ -1,6 +1,11 @@
 # Summary
 
+## 写在前面
+
 * [Introduction](README.md)
+
+## 第 1 部分 算法整理
+
 * [第 1 章 基础算法](chapter-1.md)
   * [快速幂](快速幂.md)
   * [大整数类](BigInteger.md)
@@ -20,4 +25,8 @@
   * [莫队和带修莫队](莫队.md)
 * [第 4 章 计算几何](chapter-4.md)
 * [第 5 章 字符串](chapter-5.md)
+
+## 第 2 部分 我有特别的作死技巧
+
+* [第 6 章 输入输出外挂](chapter-6.md)
 
