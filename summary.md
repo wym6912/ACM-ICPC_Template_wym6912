@@ -16,7 +16,6 @@
   * [划分树](/DIVIDE_TREE.MD)
   * [树状数组](/TREE_DATA.md)
   * [树的 DFS 序](/TREE_DFS.md)
-  * [匈牙利算法](twocds.md)
   * [利用树状数组求逆序对的数目](逆序数.md)
   * [莫队和带修莫队](莫队.md)
 * [第 4 章 计算几何](chapter-4.md)
