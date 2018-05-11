@@ -12,7 +12,6 @@
   * [矩阵类](/Matrix_Type.md)
   * [Cantor 展开](/Cantor_Expand.md)
 * [第 3 章 数据结构](chapter-3.md)
-  * [最小生成树](/Minimum_Spanning_Tree.md)
   * [线段树](31.md)
   * [划分树](/DIVIDE_TREE.MD)
   * [树状数组](/TREE_DATA.md)
@@ -22,6 +21,4 @@
   * [莫队和带修莫队](莫队.md)
 * [第 4 章 计算几何](chapter-4.md)
 * [第 5 章 字符串](chapter-5.md)
-
-
 
